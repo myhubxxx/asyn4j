@@ -45,7 +45,8 @@ public final class MethodUtil {
 			if (classes.length == 0 && (pararm == null || pararm.length == 0))
 				return m;
 			if (pararm == null || pararm.length == 0) {
-				return null;
+				// change this
+				continue;
 			}
 			if (classes.length != pararm.length) {
 				continue;
